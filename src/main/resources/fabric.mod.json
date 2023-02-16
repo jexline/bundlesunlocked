@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bundlesunlocked",
+  "version": "1.0.5",
+
+  "name": "Bundles Unlocked",
+  "description": "This mod adds crafting recipe for the bundle!",
+  "authors": [
+    "Exline"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/bundles-unlocked",
+    "issues": "https://github.com/jexline/exline-mods-issues/issues"
+  },
+
+  "license": "all-rights-reserved",
+  "icon": "assets/bundlesunlocked/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exline.bundlesunlocked.BundlesUnlockedMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
